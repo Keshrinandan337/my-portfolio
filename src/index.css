@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Floating animation (used earlier, keep it for future sections) */
+@keyframes gradientMove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-gradientMove {
+  animation: gradientMove 8s ease-in-out infinite;
+}
+
+/* Glassmorphism Glow (for InfoCard — keep here even if not used yet) */
+.glass-card-glow {
+  box-shadow: 0 0 25px rgba(128, 0, 255, 0.35);
+  transition: 0.3s ease-in-out;
+}
+
+.glass-card-glow:hover {
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.55);
+}
+
+
+
+@keyframes skillLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes skillRight {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-skillLeft {
+  animation: skillLeft 65s linear infinite;
+}
+
+.animate-skillRight {
+  animation: skillRight 65s linear infinite;
+}
+
+
