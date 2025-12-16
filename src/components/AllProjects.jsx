@@ -82,9 +82,9 @@ export default function AllProjects() {
           />
 
           <ProjectCard
-            title="Portfolio v1"
+            title="Portfolio Website"
             desc="My first portfolio made using React."
-            link="https://github.com/your-repo"
+            link="https://github.com/Keshrinandan337/my-portfolio"
           />
 
           <ProjectCard

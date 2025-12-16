@@ -50,18 +50,18 @@ export default function CertificateSection() {
     {
       title: "Cloud Computing",
       platform: "NPTEL",
-      link: null,
+      link: "/Certificates/Cloud%20Computing%20(NPTEL)Certificate.pdf",
     },
     {
       title: "Deloitte - Data Analytics Job Simulation",
       platform: "Deloitte",
-      link: null,
+      link: "/Certificates/Certificate%20Delloite.pdf",
     },
     {
       title:
         "Multilingual Machine Translation Using Hugging Face Models (Publication)",
       platform: "IJARESM",
-      link: null,
+      link: "/Certificates/Project%20exhibition%201%20certificate.pdf",
     },
     // These are for the full page only (not shown here)
     {

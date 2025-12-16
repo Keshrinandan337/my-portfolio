@@ -20,33 +20,33 @@ export default function AllCertificates() {
     {
       title: "Cloud Computing",
       platform: "NPTEL",
-      link: null,
+      link: "/Certificates/Cloud%20Computing%20(NPTEL)Certificate.pdf",
     },
     {
       title: "Deloitte - Data Analytics Job Simulation",
       platform: "Deloitte",
-      link: null,
+      link: "/Certificates/Certificate%20Delloite.pdf",
     },
     {
       title:
         "Multilingual Machine Translation Using Hugging Face Models (Publication)",
       platform: "IJARESM",
-      link: null,
+      link: "/Certificates/Project%20exhibition%201%20certificate.pdf",
     },
     {
       title: "Statistics Onramp",
       platform: "MathWorks",
-      link: null,
+      link: "/Certificates/Statistics%20onramp%20certificate.pdf",
     },
     {
       title: "MATLAB Onramp",
       platform: "MathWorks",
-      link: null,
+      link: "/Certificates/MATLAB%20CERTIFICATE.pdf",
     },
     {
       title: "Python Programming",
       platform: "Great Learning",
-      link: null,
+      link: "/Certificates/Certificate%20(python%20for%20non%20programmers).pdf",
     },
   ];
 
