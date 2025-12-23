@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="min-h-screen bg-[#0d0d0d] text-white flex flex-col items-center justify-center px-6 relative overflow-hidden">
 
       {/* ================= NAVBAR ================= */}
-      <nav className="absolute top-3 w-full px-20 flex justify-between text-gray-300 font-medium z-20">
+      <nav className="absolute top-3 w-full px-6 md:px-20 flex flex-wrap justify-between md:justify-between gap-4 md:gap-0 text-gray-300 font-medium z-20">
         <a
           href="#about"
           onClick={(e) => {
